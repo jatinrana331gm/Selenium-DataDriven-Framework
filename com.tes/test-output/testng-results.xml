@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-29T21:55:34 IST" name="Default suite" finished-at="2026-07-29T21:57:25 IST" duration-ms="110990">
+    <groups>
+    </groups>
+    <test started-at="2026-07-29T21:55:34 IST" name="Default test" finished-at="2026-07-29T21:57:25 IST" duration-ms="110990">
+      <class name="test.verifyloginTest2">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:55:35 IST" name="launchBrowser" finished-at="2026-07-29T21:55:39 IST" duration-ms="4117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:55:39 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:55:41 IST" duration-ms="1516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:55:41 IST" name="closeBrowser" finished-at="2026-07-29T21:55:41 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:55:41 IST" name="launchBrowser" finished-at="2026-07-29T21:55:45 IST" duration-ms="3794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:55:45 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:55:45 IST" duration-ms="314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin_test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:55:45 IST" name="closeBrowser" finished-at="2026-07-29T21:55:46 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:55:46 IST" name="launchBrowser" finished-at="2026-07-29T21:55:50 IST" duration-ms="4750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:55:50 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:55:51 IST" duration-ms="309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user_alpha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Welcome@2026]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:55:51 IST" name="closeBrowser" finished-at="2026-07-29T21:55:51 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:55:51 IST" name="launchBrowser" finished-at="2026-07-29T21:55:54 IST" duration-ms="3417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:55:54 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:55:55 IST" duration-ms="311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WrongPass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:55:55 IST" name="closeBrowser" finished-at="2026-07-29T21:55:55 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:55:55 IST" name="launchBrowser" finished-at="2026-07-29T21:55:58 IST" duration-ms="3603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:55:58 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:55:59 IST" duration-ms="337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test_qa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing#99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:55:59 IST" name="closeBrowser" finished-at="2026-07-29T21:55:59 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:55:59 IST" name="launchBrowser" finished-at="2026-07-29T21:56:03 IST" duration-ms="3814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:03 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:56:03 IST" duration-ms="313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:03 IST" name="closeBrowser" finished-at="2026-07-29T21:56:03 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:03 IST" name="launchBrowser" finished-at="2026-07-29T21:56:08 IST" duration-ms="4443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:08 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:56:08 IST" duration-ms="308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dev_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DevPass@01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:08 IST" name="closeBrowser" finished-at="2026-07-29T21:56:08 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:08 IST" name="launchBrowser" finished-at="2026-07-29T21:56:12 IST" duration-ms="4041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:12 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:56:13 IST" duration-ms="329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Incorrect123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:13 IST" name="closeBrowser" finished-at="2026-07-29T21:56:13 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:13 IST" name="launchBrowser" finished-at="2026-07-29T21:56:17 IST" duration-ms="3957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:17 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:56:17 IST" duration-ms="308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa_engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@55]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:17 IST" name="closeBrowser" finished-at="2026-07-29T21:56:17 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:17 IST" name="launchBrowser" finished-at="2026-07-29T21:56:21 IST" duration-ms="3928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:21 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:56:22 IST" duration-ms="332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[guest_login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guest#2026]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:22 IST" name="closeBrowser" finished-at="2026-07-29T21:56:22 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:22 IST" name="launchBrowser" finished-at="2026-07-29T21:56:27 IST" duration-ms="5650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:27 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:56:28 IST" duration-ms="358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:28 IST" name="closeBrowser" finished-at="2026-07-29T21:56:28 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:28 IST" name="launchBrowser" finished-at="2026-07-29T21:56:32 IST" duration-ms="3763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:32 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:56:32 IST" duration-ms="287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin_test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass@1235]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:32 IST" name="closeBrowser" finished-at="2026-07-29T21:56:32 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:32 IST" name="launchBrowser" finished-at="2026-07-29T21:56:38 IST" duration-ms="5347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:38 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:56:38 IST" duration-ms="334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user_alpha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Welcome@2027]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:38 IST" name="closeBrowser" finished-at="2026-07-29T21:56:38 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:38 IST" name="launchBrowser" finished-at="2026-07-29T21:56:42 IST" duration-ms="3955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:42 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:56:42 IST" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WrongPass124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:42 IST" name="closeBrowser" finished-at="2026-07-29T21:56:43 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:43 IST" name="launchBrowser" finished-at="2026-07-29T21:56:47 IST" duration-ms="4182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:47 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:56:47 IST" duration-ms="340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test_qa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing#100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:47 IST" name="closeBrowser" finished-at="2026-07-29T21:56:47 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:47 IST" name="launchBrowser" finished-at="2026-07-29T21:56:52 IST" duration-ms="4438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:52 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:56:52 IST" duration-ms="303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:52 IST" name="closeBrowser" finished-at="2026-07-29T21:56:52 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:52 IST" name="launchBrowser" finished-at="2026-07-29T21:56:56 IST" duration-ms="4111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:56 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:56:57 IST" duration-ms="332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dev_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DevPass@02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:57 IST" name="closeBrowser" finished-at="2026-07-29T21:56:57 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:56:57 IST" name="launchBrowser" finished-at="2026-07-29T21:57:01 IST" duration-ms="3972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:57:01 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:57:01 IST" duration-ms="301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Incorrect124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:57:01 IST" name="closeBrowser" finished-at="2026-07-29T21:57:01 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:57:01 IST" name="launchBrowser" finished-at="2026-07-29T21:57:05 IST" duration-ms="3366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:57:05 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:57:05 IST" duration-ms="294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa_engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@56]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:57:05 IST" name="closeBrowser" finished-at="2026-07-29T21:57:05 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:57:05 IST" name="launchBrowser" finished-at="2026-07-29T21:57:10 IST" duration-ms="4206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:57:10 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:57:10 IST" duration-ms="301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[guest_login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guest#2027]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:57:10 IST" name="closeBrowser" finished-at="2026-07-29T21:57:10 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:57:10 IST" name="launchBrowser" finished-at="2026-07-29T21:57:15 IST" duration-ms="4530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:57:15 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:57:15 IST" duration-ms="303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password125]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:57:15 IST" name="closeBrowser" finished-at="2026-07-29T21:57:15 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:57:15 IST" name="launchBrowser" finished-at="2026-07-29T21:57:19 IST" duration-ms="4069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:57:19 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:57:19 IST" duration-ms="295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin_test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass@1236]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:57:19 IST" name="closeBrowser" finished-at="2026-07-29T21:57:20 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:57:20 IST" name="launchBrowser" finished-at="2026-07-29T21:57:25 IST" duration-ms="5256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:57:25 IST" name="verifyLoginTest" data-provider="bvtdata" finished-at="2026-07-29T21:57:25 IST" duration-ms="332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user_alpha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Welcome@2028]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.verifyloginTest2@384ad17b]" started-at="2026-07-29T21:57:25 IST" name="closeBrowser" finished-at="2026-07-29T21:57:25 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.verifyloginTest2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

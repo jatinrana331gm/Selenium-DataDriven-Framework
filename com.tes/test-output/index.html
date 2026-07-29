@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\jatin\AppData\Local\Temp\testng-eclipse-654611473\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(student, Password125)">verifyLoginTest(student, Password125)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(qa_engineer, Selenium@55)">verifyLoginTest(qa_engineer, Selenium@55)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(invalid_user, Password123)">verifyLoginTest(invalid_user, Password123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(dev_user, DevPass@02)">verifyLoginTest(dev_user, DevPass@02)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(test_qa, Testing#99)">verifyLoginTest(test_qa, Testing#99)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(dev_user, DevPass@01)">verifyLoginTest(dev_user, DevPass@01)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(admin_test, Pass@1236)">verifyLoginTest(admin_test, Pass@1236)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(student, Password123)">verifyLoginTest(student, Password123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(user_alpha, Welcome@2026)">verifyLoginTest(user_alpha, Welcome@2026)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(invalid_user, Password124)">verifyLoginTest(invalid_user, Password124)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(student, WrongPass123)">verifyLoginTest(student, WrongPass123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(guest_login, Guest#2026)">verifyLoginTest(guest_login, Guest#2026)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(user_alpha, Welcome@2027)">verifyLoginTest(user_alpha, Welcome@2027)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(user_alpha, Welcome@2028)">verifyLoginTest(user_alpha, Welcome@2028)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(student, Incorrect123)">verifyLoginTest(student, Incorrect123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(student, WrongPass124)">verifyLoginTest(student, WrongPass124)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(admin_test, Pass@1235)">verifyLoginTest(admin_test, Pass@1235)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(student, Incorrect124)">verifyLoginTest(student, Incorrect124)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(qa_engineer, Selenium@56)">verifyLoginTest(qa_engineer, Selenium@56)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(admin_test, Pass@1234)">verifyLoginTest(admin_test, Pass@1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(guest_login, Guest#2027)">verifyLoginTest(guest_login, Guest#2027)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(student, Password124)">verifyLoginTest(student, Password124)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.verifyloginTest2" class="method navigator-link" hash-for-method="verifyLoginTest(test_qa, Testing#100)">verifyLoginTest(test_qa, Testing#100)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.verifyloginTest2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(student, Password125)">
+                  </a> <!-- verifyLoginTest(student, Password125) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(student,Password125)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(qa_engineer, Selenium@55)">
+                  </a> <!-- verifyLoginTest(qa_engineer, Selenium@55) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(qa_engineer,Selenium@55)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(invalid_user, Password123)">
+                  </a> <!-- verifyLoginTest(invalid_user, Password123) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(invalid_user,Password123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(dev_user, DevPass@02)">
+                  </a> <!-- verifyLoginTest(dev_user, DevPass@02) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(dev_user,DevPass@02)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(test_qa, Testing#99)">
+                  </a> <!-- verifyLoginTest(test_qa, Testing#99) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(test_qa,Testing#99)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(dev_user, DevPass@01)">
+                  </a> <!-- verifyLoginTest(dev_user, DevPass@01) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(dev_user,DevPass@01)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(admin_test, Pass@1236)">
+                  </a> <!-- verifyLoginTest(admin_test, Pass@1236) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(admin_test,Pass@1236)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(student, Password123)">
+                  </a> <!-- verifyLoginTest(student, Password123) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(student,Password123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(user_alpha, Welcome@2026)">
+                  </a> <!-- verifyLoginTest(user_alpha, Welcome@2026) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(user_alpha,Welcome@2026)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(invalid_user, Password124)">
+                  </a> <!-- verifyLoginTest(invalid_user, Password124) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(invalid_user,Password124)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(student, WrongPass123)">
+                  </a> <!-- verifyLoginTest(student, WrongPass123) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(student,WrongPass123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(guest_login, Guest#2026)">
+                  </a> <!-- verifyLoginTest(guest_login, Guest#2026) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(guest_login,Guest#2026)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(user_alpha, Welcome@2027)">
+                  </a> <!-- verifyLoginTest(user_alpha, Welcome@2027) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(user_alpha,Welcome@2027)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(user_alpha, Welcome@2028)">
+                  </a> <!-- verifyLoginTest(user_alpha, Welcome@2028) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(user_alpha,Welcome@2028)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(student, Incorrect123)">
+                  </a> <!-- verifyLoginTest(student, Incorrect123) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(student,Incorrect123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(student, WrongPass124)">
+                  </a> <!-- verifyLoginTest(student, WrongPass124) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(student,WrongPass124)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(admin_test, Pass@1235)">
+                  </a> <!-- verifyLoginTest(admin_test, Pass@1235) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(admin_test,Pass@1235)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(student, Incorrect124)">
+                  </a> <!-- verifyLoginTest(student, Incorrect124) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(student,Incorrect124)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(qa_engineer, Selenium@56)">
+                  </a> <!-- verifyLoginTest(qa_engineer, Selenium@56) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(qa_engineer,Selenium@56)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(admin_test, Pass@1234)">
+                  </a> <!-- verifyLoginTest(admin_test, Pass@1234) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(admin_test,Pass@1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(guest_login, Guest#2027)">
+                  </a> <!-- verifyLoginTest(guest_login, Guest#2027) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(guest_login,Guest#2027)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(student, Password124)">
+                  </a> <!-- verifyLoginTest(student, Password124) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(student,Password124)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(test_qa, Testing#100)">
+                  </a> <!-- verifyLoginTest(test_qa, Testing#100) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(test_qa,Testing#100)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\jatin\AppData\Local\Temp\testng-eclipse-654611473\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.verifyloginTest2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyLoginTest')
+data.setCell(0, 2, 'test.verifyloginTest2')
+data.setCell(0, 3, 1516);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyLoginTest')
+data.setCell(1, 2, 'test.verifyloginTest2')
+data.setCell(1, 3, 358);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyLoginTest')
+data.setCell(2, 2, 'test.verifyloginTest2')
+data.setCell(2, 3, 340);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyLoginTest')
+data.setCell(3, 2, 'test.verifyloginTest2')
+data.setCell(3, 3, 337);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyLoginTest')
+data.setCell(4, 2, 'test.verifyloginTest2')
+data.setCell(4, 3, 334);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyLoginTest')
+data.setCell(5, 2, 'test.verifyloginTest2')
+data.setCell(5, 3, 332);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLoginTest')
+data.setCell(6, 2, 'test.verifyloginTest2')
+data.setCell(6, 3, 332);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyLoginTest')
+data.setCell(7, 2, 'test.verifyloginTest2')
+data.setCell(7, 3, 332);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyLoginTest')
+data.setCell(8, 2, 'test.verifyloginTest2')
+data.setCell(8, 3, 329);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyLoginTest')
+data.setCell(9, 2, 'test.verifyloginTest2')
+data.setCell(9, 3, 314);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyLoginTest')
+data.setCell(10, 2, 'test.verifyloginTest2')
+data.setCell(10, 3, 313);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyLoginTest')
+data.setCell(11, 2, 'test.verifyloginTest2')
+data.setCell(11, 3, 311);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyLoginTest')
+data.setCell(12, 2, 'test.verifyloginTest2')
+data.setCell(12, 3, 309);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyLoginTest')
+data.setCell(13, 2, 'test.verifyloginTest2')
+data.setCell(13, 3, 308);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyLoginTest')
+data.setCell(14, 2, 'test.verifyloginTest2')
+data.setCell(14, 3, 308);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyLoginTest')
+data.setCell(15, 2, 'test.verifyloginTest2')
+data.setCell(15, 3, 303);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyLoginTest')
+data.setCell(16, 2, 'test.verifyloginTest2')
+data.setCell(16, 3, 303);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyLoginTest')
+data.setCell(17, 2, 'test.verifyloginTest2')
+data.setCell(17, 3, 301);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyLoginTest')
+data.setCell(18, 2, 'test.verifyloginTest2')
+data.setCell(18, 3, 301);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyLoginTest')
+data.setCell(19, 2, 'test.verifyloginTest2')
+data.setCell(19, 3, 295);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyLoginTest')
+data.setCell(20, 2, 'test.verifyloginTest2')
+data.setCell(20, 3, 294);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyLoginTest')
+data.setCell(21, 2, 'test.verifyloginTest2')
+data.setCell(21, 3, 287);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyLoginTest')
+data.setCell(22, 2, 'test.verifyloginTest2')
+data.setCell(22, 3, 279);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.verifyloginTest2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(student, Password123)</span>
+                <span class="method-start">4119 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">5638 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">5869 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(admin_test, Pass@1234)</span>
+                <span class="method-start">9665 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">9980 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">10202 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(user_alpha, Welcome@2026)</span>
+                <span class="method-start">14953 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">15265 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">15500 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(student, WrongPass123)</span>
+                <span class="method-start">18917 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">19230 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">19450 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(test_qa, Testing#99)</span>
+                <span class="method-start">23053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">23393 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">23612 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(invalid_user, Password123)</span>
+                <span class="method-start">27427 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">27743 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">27977 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(dev_user, DevPass@01)</span>
+                <span class="method-start">32421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">32731 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">32958 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(student, Incorrect123)</span>
+                <span class="method-start">36999 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">37329 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">37549 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(qa_engineer, Selenium@55)</span>
+                <span class="method-start">41506 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">41815 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">42042 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(guest_login, Guest#2026)</span>
+                <span class="method-start">45970 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">46306 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">46515 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(student, Password124)</span>
+                <span class="method-start">52166 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">52526 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">52749 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(admin_test, Pass@1235)</span>
+                <span class="method-start">56512 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">56800 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">57002 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(user_alpha, Welcome@2027)</span>
+                <span class="method-start">62349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">62684 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">62895 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(student, WrongPass124)</span>
+                <span class="method-start">66850 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">67130 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">67322 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(test_qa, Testing#100)</span>
+                <span class="method-start">71504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">71846 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">72075 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(invalid_user, Password124)</span>
+                <span class="method-start">76514 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">76819 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">77017 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(dev_user, DevPass@02)</span>
+                <span class="method-start">81129 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">81462 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">81643 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(student, Incorrect124)</span>
+                <span class="method-start">85615 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">85918 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">86146 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(qa_engineer, Selenium@56)</span>
+                <span class="method-start">89513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">89808 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">90021 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(guest_login, Guest#2027)</span>
+                <span class="method-start">94227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">94530 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">94729 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(student, Password125)</span>
+                <span class="method-start">99259 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">99565 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">99790 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(admin_test, Pass@1236)</span>
+                <span class="method-start">103859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">104156 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">104362 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(user_alpha, Welcome@2028)</span>
+                <span class="method-start">109618 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">109952 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
